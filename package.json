@@ -1,0 +1,22 @@
+{
+  "name": "suapapi-wrapper",
+  "version": "1.0.0",
+  "description": "Um wrapper para a SUAP API.",
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "start": "tsc && typedoc && node .",
+    "build": "tsc"
+  },
+  "keywords": ["suap", "api", "suapapi", "wrapper", "ifrn"],
+  "author": "Wictor Nogueira",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "typedoc": "^0.19.2",
+    "typescript": "^4.0.3"
+  }
+}
